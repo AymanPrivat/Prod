@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iWhite Tenner</title>
+    <style>
+        /* Generelle stiler */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Header-stiler */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #666;
+        }
+
+        /* Seksjonsstiler */
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f2f9ff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        /* Kjøpeknapp-stiler */
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-button-primary {
+            background-color: #007bff; /* Blå farge for individuelle produktkjøp */
+            color: #fff;
+        }
+
+        .buy-button-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .buy-button-secondary {
+            background-color: #28a745; /* Grønn farge for settkjøp */
+            color: #fff;
+        }
+
+        .buy-button-secondary:hover {
+            background-color: #218838;
+        }
+
+        /* Footer-stiler */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo">
+            <img src="iwhite-logo.png" alt="iWhite Logo">
+            <h1>iWhite Tenner</h1>
+            <p>Ditt beste smil er vårt mål!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#product-info">Produkter</a></li>
+                <li><a href="#testimonials">Anmeldelser</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Kontakt</a></li> <!-- Ny fane -->
+                <li><a href="#about">Om oss</a></li> <!-- Ny fane -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="carousel">
+        <!-- Bildekarusell eller video her -->
+        <img src="iwhite-carousel.jpg" alt="iWhite produkter">
+    </section>
+
+    <section id="product-info">
+        <h2>Om iWhite Tenner</h2>
+        <p>iWhite Tenner tilbyr et utvalg av produkter som gir deg et strålende smil på kort tid. Våre produkter er enkle å bruke og gir synlige resultater. Utforsk vårt utvalg i dag!</p>
+        <ul>
+            <li><strong>iWhite Instant:</strong> Gir umiddelbare resultater med synlig hvitere tenner etter bare 1 påføring.</li>
+            <li><strong>iWhite Dark Stains:</strong> Spesielt formulert for å bekjempe mørke flekker og misfarging forårsaket av kaffe, te og røyking.</li>
+            <li><strong>iWhite Teeth Whitening Kit:</strong> En komplett hjemmeblekingssystem for en dypere og mer varig hvitning.</li>
+        </ul>
+        <button class="buy-button buy-button-primary">Kjøp iWhite Instant</button>
+        <button class="buy-button buy-button-primary">Kjøp iWhite Dark Stains</button>
+        <button class="buy-button buy-button-secondary">Kjøp iWhite Teeth Whitening Kit</button>
+    </section>
+
+    <section id="testimonials">
+        <h2>Kundeanmeldelser</h2>
+        <blockquote>
+            <p>"Jeg prøvde iWhite Instant, og jeg kunne ikke vært mer fornøyd! Resultatene var synlige umiddelbart, og det var så enkelt å bruke."</p>
+            <footer>- Maria, Oslo</footer>
+        </blockquote>
+        <blockquote>
+            <p>"Etter å ha brukt iWhite Dark Stains, følte jeg meg mye mer selvsikker med smilet mitt. Anbefaler det på det sterkeste!"</p>
+            <footer>- Lars, Bergen</footer>
+        </blockquote>
+    </section>
+
+    <section id="faq">
+        <h2>Ofte stilte spørsmål</h2>
+        <dl>
+            <dt>Hvor lenge varer resultatene av iWhite Instant?</dt>
+            <dd>Resultatene av iWhite Instant kan vare opptil flere uker avhengig av dine spise- og drikkevaner.</dd>
+            
+            <dt>Er iWhite Teeth Whitening Kit trygt å bruke hjemme?</dt>
+            <dd>Ja, iWhite Teeth Whitening Kit er utviklet med sikkerhet i tankene og kan trygt brukes hjemme når det følges instruksjonene nøye.</dd>
+            
+            <dt>Kan iWhite Dark Stains brukes av alle?</dt>
+            <dd>Ja, iWhite Dark Stains
